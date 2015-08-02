@@ -1,0 +1,39 @@
+@0
+## V 0.1
+
+@1
+MOV UP, ACC
+SUB RIGHT
+MOV ACC, DOWN
+
+@2
+MOV UP, ANY
+
+@3
+
+
+@4
+
+
+@5
+MOV UP, DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP, ACC
+SAV
+NEG
+MOV ACC, RIGHT
+SWP
+MOV ACC, DOWN
+
+@9
+MOV LEFT, DOWN
+
+@10
+
