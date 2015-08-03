@@ -16,7 +16,7 @@ My solutions to <a href="https://en.wikipedia.org/wiki/TIS-100">TIS-100</a>
 - [x] SEQUENCE GENERATOR
 - [x] SEQUENCE COUNTER
 	- [x] NO_BACKUP
-- [ ] SIGNAL EDGE DETECTOR
+- [x] SIGNAL EDGE DETECTOR
 - [ ] INTERRUPT HANDLER
 - [ ] SIGNAL PATTERN DETECTOR
 - [ ] SEQUENCE PEAK DETECTOR
