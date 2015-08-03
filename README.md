@@ -17,7 +17,7 @@ My solutions to <a href="https://en.wikipedia.org/wiki/TIS-100">TIS-100</a>
 - [x] SEQUENCE COUNTER
 	- [x] NO_BACKUP
 - [x] SIGNAL EDGE DETECTOR
-- [ ] INTERRUPT HANDLER
+- [x] INTERRUPT HANDLER
 - [ ] SIGNAL PATTERN DETECTOR
 - [ ] SEQUENCE PEAK DETECTOR
 - [ ] SEQUENCE REVERSER
