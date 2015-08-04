@@ -1,0 +1,46 @@
+@0
+## NAIVE V0.1
+
+@1
+JMP CLR
+ST: SWP
+ MOV UP, ACC
+ JEZ CNT
+ MOV 0, RIGHT
+CLR: MOV -2, ACC
+ SAV
+ JMP ST
+CNT: SWP
+ ADD 1
+ JGZ YES
+NO: MOV 0, RIGHT
+ JMP ST
+YES: MOV 1, RIGHT
+ JMP ST
+
+@2
+MOV LEFT, DOWN
+
+@3
+
+
+@4
+
+
+@5
+MOV UP, DOWN
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP, DOWN
+
+@10
+
