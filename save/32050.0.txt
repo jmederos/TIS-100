@@ -1,8 +1,11 @@
 @0
-
+## NAIVE V0.1
 
 @1
-
+MOV UP, ACC
+MOV ACC, DOWN
+SWP
+MOV ACC, DOWN
 
 @2
 
@@ -14,7 +17,18 @@
 
 
 @5
-
+ST: MOV UP, ACC
+ SUB UP
+ JLZ NEG
+ JMP POS
+NEG: ADD 10
+ JGZ NO
+ JMP YES
+POS: SUB 10
+ JLZ NO
+YES: MOV 1, DOWN
+ JMP ST
+NO: MOV 0, DOWN
 
 @6
 
@@ -23,10 +37,10 @@
 
 
 @8
-
+MOV UP, RIGHT
 
 @9
-
+MOV LEFT, DOWN
 
 @10
 
